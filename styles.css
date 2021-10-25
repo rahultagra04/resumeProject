@@ -1,0 +1,590 @@
+body{
+    margin:0;
+}
+/*most often mistake was ki hamesha space chut ri thi because div use kr ra tha mai space usse ati h*/
+#header{
+    background-image: url("images/head.jpg");
+    height:60vh;
+    width:100vw;
+    background-size: cover;
+    background-position: center;
+}
+#nav-list{
+    display:flex;
+    height:15%;
+    justify-content: center;
+    align-items: center;
+}
+#nav-list ul{
+    display: inline-block;
+}
+li{
+    display: inline-block;
+    list-style: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin: 0.2vw;
+}
+#nav-list a:hover{
+    text-decoration: underline;
+    box-shadow: 0px 0px 6px 4px darkgrey;
+    color: lightslategray;
+    transition: 0.8s;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.align{
+    text-align: center;
+}
+#myname{
+    color: white;
+    font-size: 36px;
+    position:relative;
+    top:60px;
+}
+.social-icons{
+    color:white;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.social-icons ul{
+    word-spacing: 22px;
+}
+.social-icons a:hover{
+    color:lightslategrey;
+    box-shadow: 0px 0px 6px 4px darkgrey;
+    transition: 0.8s;
+    border-radius: 40%;
+}
+.myimage>img{
+    height:20%;
+    width:20%;
+    border-radius: 50%;
+    margin-top:-80px;
+    box-shadow: 0px 0px 8px 10px dimgray;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100vw;
+}
+.myinfo{
+    width:50%;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.italic{
+    color: red;
+}
+.italic:hover{
+    text-decoration: underline;
+}
+/*#skills{
+    display:flex;
+    flex-direction:;
+    flex-wrap: wrap;
+    height:30vh;
+    background-color: gray;
+    align-items: center;
+   
+}*/
+.skill-heading{
+    margin-top: 12px;
+    background-color: #bcb9bd;
+    
+}
+.skill-heading img{
+    height: 40px;
+    width:40px;
+}
+.skill-heading b{
+    font-size: 40px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: mediumblue;
+}
+.container{
+    width:30%;
+    height:20px;
+    display: flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top:60px;
+    margin-bottom:20px;
+}
+.container:hover{
+    box-shadow: 0px 0px 6px 6px deeppink;
+    transition: 1s;
+}
+#outer-container{
+    display: flex;
+    flex-direction: row;
+    width:100vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #bcb9bd;
+    position: relative;
+    top:-40px;
+}
+.java{
+    width:60%;
+    background-color:red;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.html{
+    width:95%;
+    background-color:aqua;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.css{
+    width:90%;
+    background-color:violet;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.c{
+    width:60%;
+    background-color:chartreuse;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.js{
+    width:50%;
+    background-color:yellow;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#education{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100vw;
+}
+#edu-heading img{
+    width:50px;
+    height:50px;
+}
+#edu-heading b{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+#edu-container{
+    margin-top: 20px;
+    position: relative;
+    width:70%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#edu-container div{
+    width:32%;
+    margin:60px;
+}
+#edu-container div:hover{
+    border:4px dotted greenyellow;
+    transition: 1s;
+}
+#edu-container div b{
+    font-size: 30px;
+    color:red;
+}
+#edu-container div i{
+    font-size: 28px;
+    font-family: sans-serif;
+    color: blue;
+}
+#edu-container p{
+    font-size:24px;
+}
+.school{
+    position: relative;
+    left:25%;
+}
+.college{
+    position: relative;
+    right:25%;
+}
+#middle{
+    position:absolute;
+    width:0%;
+    height:72%;
+    border: 2px dashed grey;
+    top:15%;
+}
+/*image or span me changes different krne h taki plane shi chl ske*/
+#aeroplane{
+    position: sticky;
+    top:30%;
+}
+#edu-container img{
+    width: 30px;
+    height:30px;
+    position: absolute;
+    left:-15px;
+    top:25px;
+}
+#projects{
+    display:flex;
+    background-color: #bcb9bd;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    padding-top: 2vh;
+}
+#project-heading b{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: mediumblue;
+    text-transform: uppercase;
+}
+#project-heading img{
+    width: 40px;
+    height: 40px;
+}
+#project-container{
+    margin-top: 20px;
+    position: relative;
+    width:70%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#project-container img{
+    width:30px;
+    height:30px;
+    position: absolute;
+    left:-15px;
+    top:20px;
+}
+#project-container div{
+    width:32%;
+    margin:60px;
+}
+#project-container p{
+    font-size:24px;
+    color: black;
+}
+#project-container div b{
+    font-size: 30px;
+    color:red;
+}
+#project-container a{
+    
+    color: darkblue;
+    text-decoration: underline;
+}
+#project-middle{
+    position: absolute;
+    width:0%;
+    height:74%;
+    border: 2px dashed grey;
+    top: 12%;
+}
+#project-travel{
+    position: sticky;
+    top:10%;
+}
+#project-container div:hover{
+    border:4px dotted darkviolet;
+    transition: 0.5s;
+}
+#achievments{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+#achi-heading{
+    margin-top: 20px;
+}
+#achi-heading img{
+    width: 40px;
+    height: 40px;
+}
+#achi-heading b{
+    font-size: 40px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+#achi-container{
+    margin-top: 20px;
+    position: relative;
+    width:70%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#achi-container div{
+    width:32%;
+    margin:60px;
+}
+#achi-container div:hover{
+    border:4px dotted cyan;
+    transition: 0.5s;
+}
+#achi-container div b{
+    font-size: 30px;
+    color:red;
+}
+#achi-container p{
+    font-size:24px;
+    font-style: italic;
+    color: black;
+}
+#achi-container a{
+    
+    color: darkblue;
+    text-decoration: underline;
+}
+#achi-middle{
+    position: absolute;
+    width:0%;
+    height:74%;
+    border: 2px dashed grey;
+    top: 12%;
+}
+#achi-container img{
+    width:30px;
+    height:30px;
+    position: absolute;
+    left:-15px;
+    top:20px;
+}
+#achi-travel{
+    position: sticky;
+    top:10%;
+}
+ #interests{
+    width:100vw;
+    text-align: center;
+    background-color: #bcb9bd;
+}
+#interest-heading img{
+    width:40px;
+    height:40px;
+}
+#interest-heading b{
+    font-size: 40px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+#interest-heading{
+    margin-top: 20px;
+}
+#card-container{
+    display: flex;
+    width:100vw;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#coding{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("images/coding.webp");
+    height:44vh;
+    width:30vw;
+    margin-right: 2vw;
+}
+#coding:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+#coding b{
+    font-size: 20px;
+    color:chartreuse;
+}
+#writing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("images/writing.jpg");
+    height:44vh;
+    width:30vw;
+    margin-right: 2vw;
+}
+#writing:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+#writing b{
+    font-size: 20px;
+    color: cyan;
+}
+#cycling{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("images/cycle.jpg");
+    height:44vh;
+    width:30vw;
+    margin-right: 2vw;
+}
+#cycling:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+#cycling b{
+    font-size: 20px;
+    color: darkblue;
+}
+#badminton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("images/badminton.jpg");
+    height:44vh;
+    width:30vw;
+    margin-right: 2vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+#badminton:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+#badminton b{
+    font-size: 20px;
+    color:yellow;
+}
+#music{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("images/music.jpg");
+    height:44vh;
+    width:30vw;
+    margin-right: 2vw;
+    margin-top: 2vh;
+}
+#music:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+#music b{
+    font-size: 20px;
+    color: red;
+}
+@media screen and (max-width:900px){
+    #coding{
+        height:30vh;
+    } 
+     #music{
+        height:30vh;
+    }
+    #badminton{
+        height:30vh;
+    }
+    #cycling{
+        height:30vh;
+    }
+    #writing{
+        height:30vh;
+    }
+
+}
+@media screen and (max-width:600px){
+    #coding{
+        height:20vh;
+    } 
+     #music{
+        height:20vh;
+    }
+    #badminton{
+        height:20vh;
+    }
+    #cycling{
+        height:20vh;
+    }
+    #writing{
+        height:20vh;
+    }
+
+}
+
+
+
+#contact{
+    background: linear-gradient(#e66465, #9198e5);
+    width:100vw;
+    margin-top: 30px;
+}
+#contact-heading img{
+    height:40px;
+    width:40px;
+    position: relative;
+    top:20px;
+}
+#contact-heading b{
+    font-size: 40px;
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    top: 20px;
+}
+#contact-sections{
+    display: flex;
+    flex-direction: row;
+    width:80vw;
+    justify-content: center;
+}
+#contact-sections form{
+    margin-top: 50px;
+    width:45%;
+    height:20vh;
+    margin-left: 50px;
+}
+#yourname{
+    width:90%;
+}
+#email{
+    width:90%;
+}
+#message{
+    width: 90%;
+}
+button{
+    width:30%;
+}
+#my-address{
+    width:45%;
+    margin-top: 40px;
+    margin-right: -100px;
+}
+button{
+    background-color: black;
+    color: white;
+}
+input{
+    background-color: black;
+    color: white;
+}
+#my-address b{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#my-address b:hover{
+    zoom:120%;
+}
+
