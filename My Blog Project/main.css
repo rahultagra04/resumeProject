@@ -1,0 +1,178 @@
+/*logos and their hovering*/
+
+#fb{
+    font-size: 18px;
+    color:white;
+    height:30px;
+    width:30px;
+    background-color:#3b5998; 
+    margin-left: -7px;
+    margin-top: 110px;
+    vertical-align: top;
+    text-align: center;
+}
+#fb:hover{
+    background-color: #2d4373;
+}
+#linkedin{
+    font-size: 18px;
+    color:white;
+    height:30px;
+    width:30px;
+    background-color:#0077b5; 
+    margin-left: -7px;
+    text-align: center;
+}
+#linkedin:hover{
+    background-color: #00121c;
+}
+#twitter{
+    font-size: 18px;
+    height:30px;
+    width:30px;
+    background-color:#83c3f3; 
+    margin-left: -7px;
+    text-align: center;
+}
+#twitter:hover{
+    background-color: #55acee;
+}
+#google{
+    font-size: 18px;
+    color:white;
+    height:30px;
+    width:30px;
+    background-color:#dd4b39; 
+    margin-left: -7px;
+    text-align: center;
+}
+#google:hover{
+    background-color: #c23321;
+}
+#whatsapp{
+    font-size: 18px;
+    height:30px;
+    width:30px;
+    background-color:#6ba92f; 
+    margin-left: -7px;
+    text-align: center;
+}
+#whatsapp:hover{
+    background-color: #528124;
+}
+#e-mail{
+    font-size: 18px;
+    height:30px;
+    width:30px;
+    background-color:#ed4926; 
+    margin-left: -7px;
+    text-align: center;
+}
+#e-mail:hover{
+    background-color: #cf3311;
+}
+#social{
+    display:inline-block;
+    position: fixed;
+
+}
+/* blog heading */
+#heading{
+    margin-left: 30px;
+    display: inline-block;
+}
+#cn:hover{
+    border:4px solid red;
+}
+#blog-heading{
+    margin-left:30px;
+    text-transform: uppercase;
+}
+#blog-heading:hover{
+    border:4px dotted darkblue;
+}
+/* Three section of the page*/
+#leftpart{
+    margin-top:-10px;
+    margin-left: 30px;
+    display:inline-block;
+    width:10%;
+    height:100%;
+}
+span:hover{
+    zoom:150%;
+}
+#article{
+    display:inline-block;
+    width:55%;
+    vertical-align: top;
+    margin-left: 20px;
+}
+#views:hover{
+    color:springgreen;
+}
+#rightpart{
+    display: inline-block;
+    width:20%;
+    vertical-align: top;
+    margin-left: 20px;
+}
+.para{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.steps{
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.steps:hover{
+    font-style: italic;
+    color: rgb(194, 11, 240);
+    border:3px dotted blue;
+    text-decoration: underline;
+}
+.Border{
+    border-top:4px solid black;
+    margin-bottom: 30px;
+}
+#name{
+    margin-bottom: 4px;
+}
+#email{
+    margin-bottom: 10px;
+
+}
+#subscribe-para{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+
+}
+
+
+.listing{
+   text-decoration: none;
+   color: orangered;
+   font-size:18px;
+}
+.listing:hover{
+    color: blue;
+}
+
+.comment{
+    text-decoration: none;
+    color:orangered;
+    font-size: 18px;
+}
+.comment:hover{
+    text-decoration: underline;
+    zoom:110%;
+}
+.images img{
+    width:100%;
+}
+.images:hover{
+    border:4px solid cyan;
+    transition: 0.5s ease-in-out;
+}
+
